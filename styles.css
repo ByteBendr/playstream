@@ -3,7 +3,11 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    background: rgb(230,233,240);
+    background: -moz-linear-gradient(90deg, rgba(230,233,240,1) 0%, rgba(242,247,255,1) 59%, rgba(238,245,245,1) 78%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(230,233,240,1) 0%, rgba(242,247,255,1) 59%, rgba(238,245,245,1) 78%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(230,233,240,1) 0%, rgba(242,247,255,1) 59%, rgba(238,245,245,1) 78%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e6e9f0",endColorstr="#00d4ff",GradientType=1);
     color: #333;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
