@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayStream 🎬</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="435327438138-rc18jn7ut39puv44bcbk6s40inql4mvt.apps.googleusercontent.com"> <!-- Replace with your client ID -->
+</head> 
+<body>
+    <div class="container">
+        <header>
+            <h1>🎞️ PlayStream 🎞️</h1>
+        </header>
+        <main>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search for videos...">
+                <button id="search-button">Search</button>
+            </div>
+            <div id="results" class="results"></div>
+            <div id="video-player" class="video-player"></div>
+        </main>
+    </div>
+    <!-- Google Sign-In button -->
+    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+    <!-- Dark Mode Toggle Button -->
+    <!-- <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</button> -->
+    <script src="script.js"></script>
+</body>
+</html>
