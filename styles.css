@@ -158,8 +158,8 @@ body.dark-mode .result-item {
 
 .video-player iframe {
     width: 100%;
-    max-width: 900px;
-    height: 506px;
+    max-width: 1200px;
+    height: 675px;
     border-radius: 12px;
     border: none;
 }
