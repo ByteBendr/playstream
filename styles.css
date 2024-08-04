@@ -149,17 +149,24 @@ body.dark-mode .result-item {
     color: #e0e0e0;
 }
 
-/* Video Player */
+/* Video Player Container */
 .video-player {
     display: none;
-    text-align: center;
-    margin-top: 20px;
+    width: 100%;
+    max-width: 1400px; /* Set a wider max-width for the player */
+    height: 800px; /* Set a height that is reasonable */
+    margin: 20px auto;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative; /* Ensures the iframe can be positioned absolutely */
 }
 
+/* Embedded Video (iframe) */
 .video-player iframe {
     width: 100%;
-    max-width: 1200px;
-    height: 675px;
-    border-radius: 12px;
+    height: 100%;
     border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
