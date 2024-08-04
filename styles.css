@@ -150,20 +150,16 @@ body.dark-mode .result-item {
 }
 
 /* Video Player */
-#video-player {
+.video-player {
     display: none;
-    width: 100%;
-    max-width: 1400px; /* Set a wider width for the player */
-    height: 800px; /* Adjust height to your preference */
-    margin: 20px auto;
-    border-radius: 8px;
-    overflow: hidden;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .video-player iframe {
     width: 100%;
-    max-width: 1800px;
-    height: 600px;
+    max-width: 1200px;
+    height: 675px;
     border-radius: 12px;
     border: none;
 }
