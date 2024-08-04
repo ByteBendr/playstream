@@ -153,8 +153,8 @@ body.dark-mode .result-item {
 .video-player {
     display: none;
     width: 100%;
-    max-width: 1400px; /* Set a wider max-width for the player */
-    height: 500px; /* Set a height that is reasonable */
+    max-width: 1600px; /* Set a wider max-width for the player */
+    height: 600px; /* Set a height that is reasonable */
     margin: 20px auto;
     border-radius: 8px;
     overflow: hidden;
